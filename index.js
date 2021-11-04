@@ -68,8 +68,6 @@ const burger = {
   },
 }
 
-
-
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
     {name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and wonderful vegan options!"},
@@ -86,8 +84,11 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
-
-
+for(let i = 0; i < reviews.length; i++){
+  if(reviews[i].name === "Julius"){
+    console.log(reviews[i].feedback);
+  }
+}
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
